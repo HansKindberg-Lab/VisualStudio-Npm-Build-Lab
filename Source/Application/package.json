@@ -1,0 +1,15 @@
+{
+	"dependencies": {
+		"bootstrap": "5.3.0"
+	},
+	"devDependencies": {
+		"sass": "1.63.6"
+	},
+	"private": true,
+	"scripts": {
+		"Build-Debug": "npm run StyleSheet-Debug",
+		"Build-Release": "npm run StyleSheet-Release",
+		"StyleSheet-Debug": "sass Style/Site.scss:wwwroot/Style/Site.css --no-source-map",
+		"StyleSheet-Release": "sass Style/Site.scss:wwwroot/Style/Site.css --no-source-map --style=compressed"
+	}
+}
