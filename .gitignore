@@ -398,6 +398,8 @@ FodyWeavers.xsd
 *.sln.iml
 
 # Custom
+Source/Application/wwwroot/Scripts/*
+!Source/Application/wwwroot/Scripts/.gitkeep
 Source/Application/wwwroot/Style/*
 !Source/Application/wwwroot/Style/.gitkeep
 

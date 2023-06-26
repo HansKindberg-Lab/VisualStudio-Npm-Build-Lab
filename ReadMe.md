@@ -4,7 +4,12 @@ This is an example solution where I use msbuild-targets to build npm-stuff. I fi
 
 - [Running npm tasks when building a .NET project](https://www.meziantou.net/running-npm-tasks-when-building-a-dotnet-project.htm)
 
-At the moment sass is built to css. Bootstrap is included.
+I am also trying [esbuild](https://esbuild.github.io) for the first time. It is fast.
+
+At the moment:
+
+- sass is built to css, Bootstrap is included
+- typescripts are built to js with esbuild, Bootstrap an jQuery included
 
 ## 1 Development
 
