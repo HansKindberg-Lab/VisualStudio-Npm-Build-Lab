@@ -1,0 +1,7 @@
+<Project>
+	<!--
+		We can use this file to replace Build.targets during auto-deploy. That is in Azure DevOps pipelines or github-actions.
+		Then we can run our npm stuff in tasks instead.
+		There may be problems having npm running stuff in the project-file when we want to build docker images.
+	-->
+</Project>
